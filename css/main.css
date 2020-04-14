@@ -1,0 +1,438 @@
+/*-------------------------------- Basic CSS ---------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wow {
+  visibility: hidden;
+}
+
+body{
+  background: #F9F9F9;
+  color: #232323;
+  margin: 0;
+  padding: 0 1em 0 1em;
+}
+
+/*-------------------------------- Nav CSS ---------------------------------*/
+nav{
+  text-align: right;
+  padding: 0 0 0 0;
+}
+
+.main-nav{
+  padding: 3em 0em 0 0em;
+}
+
+.main-nav > a{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: .85em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #232323;
+  border-bottom: 1px solid #232323;
+  padding-bottom:.75px;
+  transition: all 0.3s;
+  margin-left: 1em;
+  letter-spacing: 0.0085em;
+}
+
+.main-nav > a:hover{
+  color: #2b55ff;
+  border-bottom: 1px solid #2b55ff;
+}
+
+.nav-bg{
+  background-color: #232323;
+  padding: .8em 0 .8em 0;
+}
+
+.nav-bg-a{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  color: #f2f2f2;
+  transition: all 0.3s;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  margin: 0 0 0 1.25em;
+  text-decoration:none;
+}
+
+.nav-bg-a:hover{
+  color: #2b55ff;
+}
+
+/*-------------------------------- Index CSS ---------------------------------*/
+.page-width-container{
+  max-width: 1100px;
+  margin: 0 auto 0 auto;
+}
+
+.landing-content{
+  max-width: 1100px;
+  margin: 25vh auto 30vh auto;
+  padding: 0 0em 0 0em;
+}
+.footer-content{
+  max-width: 1100px;
+  margin: 0 auto 7em auto;
+}
+
+.portfolio-card{
+  background: white;
+  margin: 0 auto 6em auto;
+  border-radius:0px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03), 0 2px 4px rgba(0,0,0,0.04);
+  max-width: 1300px;
+  padding: 3.5em 4em 2em 4em;
+  transition: .85s ease;
+}
+.expand{
+  box-shadow: 0 19px 60px rgba(0,0,0,0.06), 0 12px 36px rgba(0,0,0,0.08);
+}
+
+.portfolio-container{
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 0 0;
+  margin: 0 auto 2em auto;
+}
+
+.portfolio-item-1{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0em 0 5em 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.08);
+  transition: all 0.8s;
+}
+
+.portfolio-item-2{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0em 0 5em 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.08);
+transition: all 0.8s;
+}
+
+.portfolio-item-3{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0em 0 5em 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.08);
+  transition: all 0.8s;
+}
+
+.expand{
+  box-shadow: 0 19px 60px rgba(0,0,0,0.08), 0 12px 36px rgba(0,0,0,0.08);
+}
+
+.portfolio-item:first-of-type{
+  margin: 1.75em 0 5em 0;;
+}
+
+.image-constraint{
+  width: 59%;
+  height: auto;
+  margin-bottom: -5px;
+}
+
+.portfolio-preview-img{
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  /* border-radius: 3px; */
+}
+.image-constraint:hover .portfolio-preview-img {
+  opacity: 0.90;
+}
+
+.portfolio-preview-content{
+  width: 33%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+
+}
+
+/*-------------------------------- Index Type CSS ----------------------------*/
+.headline{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  line-height: 1.3em;
+  color: #232323;
+  letter-spacing: -0.035em;
+}
+
+#tagline{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.125em;
+  margin: 2.5em 0 0 0;
+  letter-spacing: 0.0035em;
+}
+
+#portfolioheadline{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size:.8em;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0 0 0 0;
+  color: #232323;
+  letter-spacing: 0.135em;
+  margin-bottom: 2em;
+
+}
+
+.headline > a{
+  color: #2b55ff;
+  transition: all 0.3s;
+}
+
+.headline > a:hover{
+  color:#2b55ff;
+}
+
+.portfolio-preview-content>h4{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.2em;
+  margin: 0 0 1.25em 0;
+  letter-spacing: 0em;
+}
+
+.portfolio-preview-content>p{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: .95em;
+  line-height: 1.7em;
+  margin: 0 0 3.5em 0;
+}
+
+.portfolio-preview-content>a{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: .85em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #232323;
+  border-bottom: 1px solid #232323;
+  padding-bottom:1px;
+  transition: all 0.3s;
+  letter-spacing: 0.0125em;
+}
+
+#deadlink{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: .85em;
+  line-height: 1.7em;
+  text-decoration: none;
+  color: #232323;
+  /* border-bottom: 1px solid #232323; */
+  padding-bottom:1px;
+  transition: all 0.3s;
+  letter-spacing: 0.0125em;
+}
+
+
+
+.portfolio-preview-content>a:hover{
+  color:#2b55ff;
+  border-bottom: 1px solid #2b55ff;
+}
+
+/*---------------------------------- About Page --------------------------------*/
+.about-item{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 3.5em;
+  margin-top: 6em;
+  padding: 0em 0em 0 0em;
+}
+
+.about-image-constraint{
+  width: 56%;
+  height: auto;
+  margin-right: 1%;
+}
+
+.about-preview-img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5em;
+}
+
+.link-container{
+  margin-left: 12%;
+}
+
+.about-content{
+  width: 43%;
+}
+
+/*---------------------------------- About Page Type --------------------------------*/
+.about-content>h1{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5em;
+  margin:.5em 0 .35em 0;
+  letter-spacing: -0.035em;
+}
+
+.about-content>h2{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5em;
+    letter-spacing: -0.03em;
+  margin: 2.25em 0 .75em 0;
+}
+
+.about-content>p{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin: 0 0 1.25em 0;
+}
+
+p>em {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #e2efff;
+
+}
+
+.links{
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin: 0 0 0 0;
+}
+.links>a{
+  text-decoration: underline;
+  color: #232323;
+  transition: all 0.3s;
+}
+
+.links>a:hover{
+  color: #2b55ff;
+}
+
+.social{
+  font-size: 18px;
+  line-height: 150%;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 45%);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-transition: all 75ms ease;
+  -moz-transition: all 75ms ease;
+  -ms-transition: all 75ms ease;
+  -o-transition: all 75ms ease;
+  transition: all 75ms ease;
+}
+
+a:hover{
+  color: #2b55ff;
+}
+
+a.telus,
+a.telus:hover {
+  font-weight: 500;
+  color: rgb(36, 135, 0);
+}

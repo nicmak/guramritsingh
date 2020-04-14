@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Haas Grot Disp 65';
+    src: url('fonts/HaasGrotDisp-65Medium.eot');
+    src: url('fonts/HaasGrotDisp-65Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HaasGrotDisp-65Medium.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-65Medium.woff') format('woff'),
+        url('fonts/HaasGrotDisp-65Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 55 Roman';
+    src: url('fonts/HaasGrotDisp-55Roman.eot');
+    src: url('fonts/HaasGrotDisp-55Roman.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HaasGrotDisp-55Roman.woff2') format('woff2'),
+        url('fonts/HaasGrotDisp-55Roman.woff') format('woff'),
+        url('fonts/HaasGrotDisp-55Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

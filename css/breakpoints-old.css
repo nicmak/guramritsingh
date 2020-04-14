@@ -1,0 +1,368 @@
+/*-------------------------------- Break Points CSS ---------------------------------*/
+@media only screen and (max-width: 1024px) {
+  .portfolio-card{
+    padding: .75em 0 1.5em 0;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0);
+    margin-bottom: 4em;
+  }
+
+  .portfolio-item:first-of-type{
+    margin-top: 1em;
+  }
+
+.portfolio-item{
+  flex-basis:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 2.25em;
+}
+
+  .about-item{
+    flex-basis:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 2.25em;
+    margin-top: 3.5em;
+  }
+
+  .content-head{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: left;
+  }
+
+  .content-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: left;
+  }
+
+  .content-img{
+    margin: 0 auto 3em auto;
+    width: 95%;
+    text-align: center;
+  }
+
+  .double-image{
+    flex-basis:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0em auto 3em auto;
+  }
+
+  #extra-wide{
+    width: 95%;
+  }
+
+  .fifty-1{
+    width: 47.5%;
+    height: auto;
+    margin-right: 5%;
+  }
+
+  .fifty-2{
+    width: 47.5%;
+    height: auto;
+  }
+
+  .img-split-left{
+    width: 95%;
+    margin-right: 0em;
+    margin-bottom: 1em
+  }
+
+  .img-split-right{
+    width:95%;
+    margin-left: 0em;
+    margin-bottom: 2em
+  }
+
+  .sixty-img{
+    width:95%;
+    margin-left: 0em;
+    margin-bottom: 2em
+  }
+
+  .fourty-img{
+    width:95%;
+    margin-left: 0em;
+    margin-bottom: 2em
+  }
+}
+
+/*-------------------------------- Break Points 768 ---------------------------------*/
+@media only screen and (max-width: 768px) {
+  .portfolio-card{
+    margin-bottom: 3.5em;
+  }
+
+  .content-head{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: left;
+  }
+
+  .content-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: left;
+  }
+
+  .content-section>h2{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+
+  .content-img{
+    margin: 0 auto 2em auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .double-image{
+    flex-basis:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:0em auto 0em auto;
+  }
+
+  .img-split-left{
+    width:100%;
+    margin-right: 0em;
+    margin-bottom: 1em
+  }
+
+  .img-split-right{
+    width:100%;
+    margin-left: 0em;
+    margin-bottom: 2em
+  }
+
+  .sixty-img{
+    width:100%;
+    margin-left: 0em;
+    margin-bottom: 1em
+  }
+
+  .fourty-img{
+    width:100%;
+    margin-left: 0em;
+    margin-bottom: 2em
+  }
+}
+
+/*-------------------------------- Break Points 720 ---------------------------------*/
+@media only screen and (max-width: 720px) {
+  .portfolio-item{
+    flex-wrap: wrap;
+  }
+
+  .about-item{
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+
+  .portfolio-preview-content{
+    width: 100%;
+  }
+
+  .about-content{
+    width: 100%;
+  }
+
+  .image-constraint{
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .about-image-constraint{
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+
+  .portfolio-preview-content>h4{
+    margin-top: 1em;
+  }
+
+  .fifty-1{
+    width: 100%;
+    height: auto;
+    margin-right: 0%;
+  }
+
+  .fifty-2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  .points-container{
+    flex-wrap: wrap;
+    margin-bottom: 1.3em;
+  }
+
+  .points-left{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .points-right{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/*-------------------------------- Break Points 650 ---------------------------------*/
+@media only screen and (max-width: 650px) {
+  .landing-content{
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+  }
+
+  nav{
+    text-align: right;
+    padding: .5em 0 .5em 0;
+  }
+
+  .about-item{
+    margin-top: .75em;
+    margin-bottom: 0em;
+  }
+}
+
+/*-------------------------------- Break Points 425 ---------------------------------*/
+@media only screen and (max-width: 425px) {
+  .headline{
+    font-family: 'CircularStd-Bold';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    margin-bottom: 1.25em;
+  }
+
+  #tagline{
+    font-size: 1.25em;
+  }
+
+  .landing-content{
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+  }
+
+  #portfolioheadline{
+    font-size: 1.5em;
+    margin-top: .5em;
+  }
+
+  #extra-h3-pad{
+    margin-bottom: .66em;
+  }
+
+  .portfolio-card{
+    padding: 1.25em 0 1em 0;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.0);
+    margin-bottom: 1.75em;
+  }
+
+  .portfolio-item{
+    margin-bottom: 1em;
+  }
+
+  .portfolio-item:first-of-type {
+    margin-top: .75em;
+  }
+
+  .link-container{
+    margin-left: 0%;
+  }
+
+  .about-content>h1{
+    font-size: 1.75em
+  }
+  .about-content>h2{
+    font-size: 1.25em;
+    margin-top: 2em;
+  }
+
+  .about-content>p{
+    font-size: 1.1em;
+    margin-bottom: 1em;
+  }
+
+  .content-hero-img {
+    margin-bottom: 1em;
+  }
+
+  .content-head>h1{
+    font-size: 1.66em;
+    margin-bottom: 1.75em;
+  }
+
+  .content-section>h2{
+    margin-top: 2.75em;
+    margin-bottom: -.5em;
+  }
+
+  .content-section>h3{
+    margin-bottom: 0em;
+  }
+  .fifty-1>h3{
+    margin-bottom: 0em;
+  }
+
+  .content-section>p{
+    margin-bottom: 2.75em;
+  }
+
+  .fifty-1>p{
+    margin-bottom: 1.5em;
+  }
+
+  .content-img {
+    margin: 0 auto 1em auto;
+  }
+
+  .img-split-right{
+    margin-bottom: 1em
+  }
+
+  .fourty-img{
+    margin-bottom: 1em;
+  }
+  .fifty-2{
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .nav-bg{
+    background-color: #121212;
+    padding: .5em 0 .5em 0;
+  }
+
+  .nav-bg-a{
+    color: #f4f4f4;
+    transition: 0.3s;
+    font-family: 'CircularStd-Book';
+    font-weight: normal;
+    font-style: normal;
+    margin-left: .75em;
+    text-decoration:none;
+  }
+}
